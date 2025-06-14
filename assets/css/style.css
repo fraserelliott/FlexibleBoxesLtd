@@ -2,7 +2,7 @@
     --main-fg-color: #333333;
     --secondary-font-color: #C47535;
     --main-bg-color: #E0AF63;
-    --secondary-bg-color: #8A2B2B;
+    --secondary-bg-color: #C47535;
     --tertiary-bg-color: #EAE0D0;
     --primary-font: Helvetica;
     --secondary-font: Arial;
@@ -20,13 +20,31 @@ body {
     font-family: var(--secondary-font);
 }
 
+@media (max-width: 750px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin: 10px 0;
+    }
+
+    #searchbar {
+        margin: 10px 0;
+    }
+}
+
 header {
     position: sticky;
     display: flex;
     justify-content: center;
     padding: 10px;
     background-color: var(--main-bg-color);
+}
 
+#logo {
+    left: 0;
 }
 
 nav {
@@ -44,6 +62,10 @@ nav a {
     font-family: var(--primary-font);
 }
 
+nav a:hover {
+    background-color: var(--secondary-bg-color);
+}
+
 #searchbar {
     min-width: 50px;
     height: auto;
@@ -57,6 +79,7 @@ nav a {
     width: 100%;
     height: 300px;
     background-size: 536px 300px;
+    margin: 20px 0px;
 }
 
 #services {
@@ -69,7 +92,8 @@ nav a {
 #newsandcontact {
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    flex-wrap: wrap;
+    margin: 30px;
     padding: 20px;
 }
 
@@ -121,6 +145,7 @@ nav a {
 #contact {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .formgroup {
