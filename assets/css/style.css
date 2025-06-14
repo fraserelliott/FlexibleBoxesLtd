@@ -119,9 +119,6 @@ nav a:hover {
     background-color: var(--main-bg-color);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
-}
-
-#news h1 {
     text-align: center;
 }
 
