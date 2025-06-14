@@ -43,10 +43,6 @@ header {
     background-color: var(--main-bg-color);
 }
 
-#logo {
-    left: 0;
-}
-
 nav {
     display: flex;
     justify-content: center;
