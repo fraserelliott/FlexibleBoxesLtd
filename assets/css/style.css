@@ -135,12 +135,15 @@ a {
 input {
     color: var(--main-fg-color);
     background-color: var(--tertiary-bg-color);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 textarea {
     color: var(--main-fg-color);
     background-color: var(--tertiary-bg-color);
     border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .button {
