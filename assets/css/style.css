@@ -5,7 +5,9 @@
     --secondary-bg-color: #8A2B2B;
     --tertiary-bg-color: #EAE0D0;
     --primary-font: Helvetica;
-    --secondary-font: Arial;;
+    --secondary-font: Arial;
+    --border-radius: 10px;
+    --box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -23,6 +25,8 @@ header {
     display: flex;
     justify-content: center;
     padding: 10px;
+    background-color: var(--main-bg-color);
+
 }
 
 nav {
@@ -33,11 +37,9 @@ nav {
 }
 
 nav a {
-    border: 1px solid black;
     padding: 10px 20px;;
     text-decoration: none;
     font-weight: bold;
-    background-color: var(--main-bg-color);
     color: var(--main-fg-color);
     font-family: var(--primary-font);
 }
@@ -75,17 +77,19 @@ nav a {
     padding: 20px;
     margin: 20px;
     flex: 1 1 300px;
-    border: 1px solid black;
     text-align: center;
     background-color: var(--main-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 #news {
     padding: 20px;
     margin: 50px;
-    border: 1px solid black;
     flex: 1 1 200px;
     background-color: var(--main-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 #news h1 {
@@ -95,10 +99,11 @@ nav a {
 .contactbox {
     padding: 20px;
     margin: 50px;
-    border: 1px solid black;
     flex: 1 1 200px;
     text-align: center;
     background-color: var(--main-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 .contactbox a {
@@ -108,8 +113,9 @@ nav a {
 #about {
     padding: 20px;
     margin: 20px;
-    border: 1px solid black;
     background-color: var(--main-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 #contact {
