@@ -1,4 +1,4 @@
-# week2assignment
+# FlexibleBoxesLtd
 
 ## What is this?
 
