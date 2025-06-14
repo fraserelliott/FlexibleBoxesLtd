@@ -97,11 +97,20 @@ nav a:hover {
     padding: 20px;
 }
 
-.service {
+.servicepreview {
     padding: 20px;
     margin: 20px;
     flex: 1 1 300px;
     text-align: center;
+    background-color: var(--main-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.service {
+    padding: 20px;
+    margin: 20px;
+    flex: 1 1 300px;
     background-color: var(--main-bg-color);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
@@ -162,6 +171,9 @@ button {
     color: var(--main-fg-color);
     font-family: var(--primary-font);
     font-size: 16px;
+    border-radius: 6px;
+    display: block;
+    margin: 10px auto 0px auto;
 }
 
 h1 {
@@ -170,4 +182,23 @@ h1 {
 
 footer {
     font-weight: bold;
+}
+
+.emaillabel::before {
+    content: "✉️ ";
+}
+
+.phonelabel::before {
+    content: "📞 ";
+}
+
+li::marker {
+    color: #8A2B2B;
+    font-size: 1.2rem;
+}
+
+li::after {
+    content: "!";
+    color: #8A2B2B;
+    font-size: 1.2rem;
 }
