@@ -4,6 +4,7 @@
     --main-bg-color: #E0AF63;
     --secondary-bg-color: #C47535;
     --tertiary-bg-color: #EAE0D0;
+    --standout-color: #8A2B2B;
     --primary-font: Helvetica;
     --secondary-font: Arial;
     --border-radius: 10px;
@@ -171,12 +172,12 @@ footer {
 }
 
 li::marker {
-    color: #8A2B2B;
+    color: var(--standout-color);
     font-size: 1.2rem;
 }
 
 li::after {
     content: "!";
-    color: #8A2B2B;
+    color: var(--standout-color);
     font-size: 1.2rem;
 }
