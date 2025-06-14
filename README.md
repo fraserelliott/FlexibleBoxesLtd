@@ -8,6 +8,6 @@ The page is organised using flexbox to give a reactive look that changes with th
 - wrappingcontainer: this defines a flex container where the content is allowed to wrap
 - panel: these are each of the boxes containing information/forms etc between the banner and footer (exclusive)
 
-The logo was drawn using Paint.NET. Other images were either royalty free or AI generated.
+The logo was drawn using Paint.NET. Other images were either royalty free or AI generated. AI was only used for generating images.
 
 https://fraserelliott.github.io/week2assignment/
