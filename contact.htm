@@ -17,31 +17,35 @@
             <a href="./contact.htm">Contact</a>
         </nav>
 
-        <input type="text" value="Search...">
+        <input type="text" value="Search..." id="searchbar">
     </header>
 
-    <figure>
-        <img src="./assets/images/banner.png" id="banner" alt="A banner of lots of cardboard boxes">
-    </figure>
+    <figure id="banner" alt="A banner of lots of cardboard boxes"></figure>
 
     <section id="contact">
         <div class="contactbox">
             <form>
-                <label for="name">Name: </label>
-                <input type="text" name="name"><br>  
-                <label for="email">Email: </label>
-                <input type="text" name="phone"><br>
-                <label for="phone">Phone: </label>
-                <input type="text" name="email"><br>
+                <div class="formgroup">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name">
+                </div>
+                <div class="formgroup">
+                    <label for="email" class="emaillabel">Email: </label>
+                    <input type="text" name="phone">
+                </div>
+                <div class="formgroup">
+                    <label for="phone" class="phonelabel">Phone: </label>
+                    <input type="text" name="email"><br>
+                </div>
                 <button>Get In Touch</button>       
             </form>
         </div>
 
         <div class="contactbox">
             <h1>Contact Details:</h1>
-            Phone: <a href="tel:0123456789">0123456789</a><br>
-            Email: <a href="mailto:info@flexibleboxesltd.com">info@flexibleboxesltd.com</a><br>
-            Address: 123 Fake Street, Madeupville, AB12 3BC
+            <span class="phonelabel">Phone:</span> <a href="tel:0123456789">0123456789</a><br>
+            <span class="emaillabel">Email:</span> <a href="mailto:info@flexibleboxesltd.com">info@flexibleboxesltd.com</a><br>
+            Address: 123 Fake Street, Madeupville, AB12 3BC<br>
             <img src="./assets/images/ourlocation.png">
         </div>
     </section>

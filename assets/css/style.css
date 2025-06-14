@@ -1,0 +1,142 @@
+:root {
+    --main-fg-color: #333333;
+    --secondary-font-color: #C47535;
+    --main-bg-color: #E0AF63;
+    --secondary-bg-color: #8A2B2B;
+    --tertiary-bg-color: #EAE0D0;
+    --primary-font: Helvetica;
+    --secondary-font: Arial;;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--tertiary-bg-color);
+    color: var(--main-fg-color);
+    font-family: var(--secondary-font);
+}
+
+header {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex: 5;
+    margin: auto;
+}
+
+nav a {
+    border: 1px solid black;
+    padding: 10px 20px;;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+    font-family: var(--primary-font);
+}
+
+#searchbar {
+    min-width: 50px;
+    height: auto;
+    align-self: center;
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+#banner {
+    background-image: url("../images/banner.png");
+    width: 100%;
+    height: 300px;
+    background-size: 536px 300px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#newsandcontact {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 20px;
+}
+
+.service {
+    padding: 20px;
+    margin: 20px;
+    flex: 1 1 300px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+#news {
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    flex: 1 1 200px;
+    background-color: var(--main-bg-color);
+}
+
+#news h1 {
+    text-align: center;
+}
+
+.contactbox {
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    flex: 1 1 200px;
+    text-align: center;
+    background-color: var(--main-bg-color);
+}
+
+.contactbox a {
+    color: var(--main-fg-color);
+}
+
+#about {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: var(--main-bg-color);
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formgroup {
+    margin: 10px;
+}
+
+input {
+    color: var(--main-fg-color);
+    background-color: var(--tertiary-bg-color);
+}
+
+button {
+    background-color: var(--tertiary-bg-color);
+    color: var(--main-fg-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+h1 {
+    font-family: var(--primary-font);
+}
+
+footer {
+    font-weight: bold;
+}
