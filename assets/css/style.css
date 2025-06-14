@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex: 5;
+    margin: auto;
+}
+
+nav a {
+    border: 1px solid black;
+    padding: 10px 20px;;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#searchbar {
+    min-width: 50px;
+    height: auto;
+    align-self: center;
+}
+
+#banner {
+    background-image: url("../images/banner.png");
+    width: 100%;
+    height: 300px;
+    background-size: 536px 300px;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#newsandcontact {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 20px;
+}
+
+.service {
+    padding: 20px;
+    margin: 20px;
+    flex: 1 1 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#news {
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    flex: 1 1 200px;
+}
+
+#news h1 {
+    text-align: center;
+}
+
+.contactbox {
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+#about {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formgroup {
+    margin: 10px;
+}
