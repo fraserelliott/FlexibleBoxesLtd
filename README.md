@@ -10,4 +10,4 @@ The page is organised using flexbox to give a reactive look that changes with th
 
 The logo was drawn using Paint.NET. Other images were either royalty free or AI generated. AI was only used for generating images.
 
-https://fraserelliott.github.io/week2assignment/
+https://fraserelliott.github.io/FlexibleBoxesLtd/
